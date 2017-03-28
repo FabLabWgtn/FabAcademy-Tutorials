@@ -72,14 +72,14 @@
 * [Gestalt IDE with Python](week9_machine_building/gestalt_ide.md)
 * [Machine/Gestalt Resources](week9_machine_building/machine_resources.md)
 
-### Week 11: Input Devices
+### Week 11: Output Devices
 
 ### Week 12: Molding and Casting
 
 * [Introduction to Molding and Casting- Video](week12_molding_and_casting/molding_casting.md)
 * [Molding and Casting - FabModules](week12_molding_and_casting/molding_fabmodules.md)
 
-### Week 13: Output Devices
+### Week 13: Input Devices
 
 ### Week 14 : Composites
 
