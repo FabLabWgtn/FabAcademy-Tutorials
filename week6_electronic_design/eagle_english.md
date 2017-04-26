@@ -238,7 +238,7 @@ For example:
 
 *   Next  to connect two components, NET -- NAME -- LABEL (so you'll need a  net on both the component itself and the microcontroller pin as well)
 
-##Route traces on a board
+## Route traces on a board
 
 *   Switch to the board view
 *   Go to the top menu > File > switch to board
@@ -257,7 +257,20 @@ For example:
 
 ![routed traces](eagle_english/buttonled_board_small.png)
 
-##Tips and Tricks
+## Design rules check
+
+After designing our board we need to check that the endmill we are using (1/64 usually) is able to go between all the traces so the machine is able to cut successfully the board.
+For that we are going to use **Design Rules Check** (script) that will check that there is enought space everywhere.
+
+Download the **DRC** script from [here](https://github.com/Academany/FabAcademany-Resources/blob/master/files/fabmodule.dru)
+
+* Type in EagleCad **drc** and press enter.
+* A new dialog box should appear where you can *LOAD* the script.
+* If everything is correct no error messages should appear.
+* In case some red areas appear between the traces, you should move the traces leaving more space between them.
+
+
+## Tips and Tricks
 
 *   In free version of eagle, don't put anything below or to the left of the cross (origin) in either schematic or layout.
 *   0 ohm resistor trick: place a 0 ohm resistor over a trace to hop over an existing trace
@@ -266,7 +279,7 @@ For example:
 *   click on display to see the layers which you can show/hide
 *   layout pieces in Layout - use right-click to rotate components
 
-#Exporting a board design
+# Exporting a board design
 
 ##### To prep board for milling:
 
