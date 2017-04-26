@@ -82,15 +82,15 @@ The board layout shows how the electrical components and traces will be laid out
 
 A finished board might look something like this:
 
-![hello echo board](eagle_english/hello_echo_board.jpg)
+![hello echo board](eagle_english/buttonled_board_small.png)
 
 ##Download and Install the component Libraries  
 
 Eagle has a lot of built in libraries of components that you can  use. The fab network also maintains a library.
 
-[fab.lbr](eagle_english/fab.lbr)  
+[fab.lbr](https://raw.githubusercontent.com/Academany/FabAcademany-Resources/master/files/fab.lbr)  
 The fab.lbr library is constantly being updated.  
-(You can learn more about contributing to it [here](../contributing/))
+(You can learn more about contributing to it [here](http://docs.academany.org/FabAcademany-Resources/_book/))
 
 Depending on your project you might need to find and install additional part libraries. Talk to your instructor for more specific advice.
 
@@ -98,6 +98,7 @@ Depending on your project you might need to find and install additional part lib
 
 ##### Here is how to install the libraries.
 
+Download the library and save it in eagles lbr folder.
 *   On the **Mac**, it should be /Applications/EAGLE-8.#.#/lbr/
 
     On **Windows**, it is most likely C:\Program Files\EAGLE-8.#.#\lbr\
@@ -200,7 +201,7 @@ You can either look through the listed libraries for a component to add or you c
 
 ![add LED](eagle_english/add_LED.png)
 
-##### Add Resistors (You will need 2 - from the [fab.lbr](eagle_english/fab.lbr) library)
+##### Add Resistors (You will need 2 - from the [fab.lbr](https://raw.githubusercontent.com/Academany/FabAcademany-Resources/master/files/fab.lbr) library)
 
 ![add resistor](eagle_english/add_resistor.png)
 
